@@ -1,0 +1,28 @@
+### 2. `.gitignore`
+
+Create a `.gitignore` file in the root directory of your project. This file ensures that certain files and directories are not tracked by Git.
+
+```plaintext
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.idea/
+*.db
+*.sqlite3
+
+# Node.js
+node_modules/
+build/
+dist/
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
